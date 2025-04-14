@@ -45,7 +45,7 @@ async function retrieveAllDeveloperInfo() {
 }
 ```
 
-Padromas HTTP request'as į tą nuorodą. Django Rest Framework pusėje šis request'as bus apdorotas `retrieveAllDeveloperInfo()` funkcijos.
+Padaromas HTTP request'as į tą nuorodą. Django Rest Framework pusėje šis request'as bus apdorotas `retrieveAllDeveloperInfo()` funkcijos.
 
 Tuomet ant 'Developer' modelio  vyksta `retrieveDeveloperInfo()`. 'DeveloperController' toliau kviečia ir `retrieveDeveloperGames()` ant 'Game' modelio ir galiausiai visa ši informacija grįšta atgal į puslapį.
 
