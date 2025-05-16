@@ -70,3 +70,9 @@ Dėl ataskaitos 6.3 punkto.
 Kaip reiktų pademonstruoti tą eiliškumą? Ar tiesiog labai daug nuotraukų sukelti iš realizacijos kodo ir sekų diagramų?
 
 Ten parašyta, kad reikia parodyti vieną sudėtingos funkcijos atitikimą. Ar reikia *visą* sudėtingą funkciją parodyti? Ar užtenka kokius esminius fragmentus?
+
+## Bonus Bonus Klausimas
+
+Darysime komunikaciją su Steam API iš savo backend. Tam sukūrėme Boundary, kad galima būtų komunikuoti su aktoriumi. Bet kaip tai perteikti kode?
+
+Mes galvojame sukurti Python klasę SteamBoundary ir tuomet joje aprašyti funkcijas kaip 'get_steam_game' ir 'get_steam_user'. Tuomet iš tam tikro View (kuris yra viduje Controller) kviestume šios klasės funkcijas ir taip parodytume tą 'SteamBoundary'. Ar tinka?
